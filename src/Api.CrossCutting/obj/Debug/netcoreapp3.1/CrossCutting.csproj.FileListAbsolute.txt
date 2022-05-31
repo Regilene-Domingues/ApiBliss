@@ -1,0 +1,16 @@
+D:\Bliss\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.deps.json
+D:\Bliss\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.dll
+D:\Bliss\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.pdb
+D:\Bliss\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfoInputs.cache
+D:\Bliss\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfo.cs
+D:\Bliss\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CoreCompileInputs.cache
+D:\Bliss\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.dll
+D:\Bliss\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.pdb
+D:\Bliss\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Data.dll
+D:\Bliss\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Bliss\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Service.dll
+D:\Bliss\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Bliss\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Service.pdb
+D:\Bliss\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Bliss\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CopyComplete
+D:\Bliss\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csprojAssemblyReference.cache

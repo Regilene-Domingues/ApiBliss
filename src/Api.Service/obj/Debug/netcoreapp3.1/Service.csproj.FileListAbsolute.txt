@@ -1,0 +1,14 @@
+D:\Bliss\src\Api.Service\bin\Debug\netcoreapp3.1\Service.deps.json
+D:\Bliss\src\Api.Service\bin\Debug\netcoreapp3.1\Service.dll
+D:\Bliss\src\Api.Service\bin\Debug\netcoreapp3.1\Service.pdb
+D:\Bliss\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+D:\Bliss\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+D:\Bliss\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+D:\Bliss\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
+D:\Bliss\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
+D:\Bliss\src\Api.Service\bin\Debug\netcoreapp3.1\Data.dll
+D:\Bliss\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Bliss\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Bliss\src\Api.Service\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Bliss\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+D:\Bliss\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
