@@ -7,28 +7,16 @@ Framework: .Net Core 3.1
 Database: MySql
 Architecture: DDD (Domain Driven Design)
 
-The database connection string is in the ContexFactory Class, which is in the Context folder inside the Api.Data layer.
-
+The database connection string is in the ContexFactory Class, which is in the Context folder inside the Data layer.
+Inside the Data layer, in the Seeds folder, there is the TableQuestionSeeds.cs class where we input 15 questions and answers for the Api's operation.
 
 Information for the operation of the API:
 
+Healths
 Get/Healths - Only Execute
 
+Questions
 Get/Questions - Only Execute
-Post/Questions - Required fields
-	{
-		"question": "string",
-			"choice": [
-			{
-				"choice": "string"
-			}]
-	}
-
-Get/Questions/{id} - Required id
+Get/Questions/{id} - Required id (Get the id through Get/Questions;)
 
 
-How to run the API:
-
-Enter data using Post/Questions;
-Get the id through Get/Questions;
-Use the information you got from Get/Questions to work on Get/Questions{id};
