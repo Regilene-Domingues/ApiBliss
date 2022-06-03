@@ -12,4 +12,5 @@ D:\Bliss\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
 D:\Bliss\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
 D:\Bliss\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
 D:\Bliss\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
-D:\Bliss\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+D:\Bliss\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
+D:\Bliss\src\Api.Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig

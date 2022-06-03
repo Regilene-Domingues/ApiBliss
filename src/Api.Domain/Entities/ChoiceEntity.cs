@@ -7,7 +7,6 @@ namespace Api.Domain.Entities
     {
         [Required]
         public string Choice { get; set; }
-        public Guid QuestionId { get; set; }
-        public virtual QuestionEntity Questions { get; set; }
+        public int QuestionId { get; set; }
     }
 }

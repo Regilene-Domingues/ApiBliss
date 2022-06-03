@@ -7,10 +7,10 @@ namespace Api.Domain.Interfaces.Services.Question
 {
     public interface IQuestionService
     {
-        Task<QuestionEntity> Get(Guid id);
+        Task<QuestionEntity> Get(int id);
         Task<IEnumerable<QuestionEntity>> GetAll();
-        Task<QuestionEntity> Post(QuestionEntity question);
-        Task<QuestionEntity> Put(QuestionEntity question);
-        Task<bool> Delete(Guid id);
+        // Task<QuestionEntity> Post(QuestionEntity question);
+        // Task<QuestionEntity> Put(QuestionEntity question);
+        // Task<bool> Delete(Guid id);
     }
 }

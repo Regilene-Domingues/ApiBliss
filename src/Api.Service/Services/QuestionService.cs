@@ -14,29 +14,30 @@ namespace Api.Service.Services
         {
             _repository = repository;
         }
-        public async Task<bool> Delete(Guid id)
-        {
-            return await _repository.DeleteAsync(id);
-        }
 
-        public async Task<QuestionEntity> Get(Guid id)
+        public async Task<QuestionEntity> Get(int id)
         {
-            return await _repository.SelectAsync(id);
+            //return await _repository.SelectAsync(id);
+            return await _repository.GetByIdAsync(id);
         }
 
         public async Task<IEnumerable<QuestionEntity>> GetAll()
         {
-            return await _repository.SelectAsync();
+            return await _repository.GetAllAsync();
         }
 
-        public async Task<QuestionEntity> Post(QuestionEntity question)
-        {
-            return await _repository.InsertAsync(question);
-        }
+        // public async Task<QuestionEntity> Post(QuestionEntity question)
+        // {
+        //     return await _repository.InsertAsync(question);
+        // }
 
-        public async Task<QuestionEntity> Put(QuestionEntity question)
-        {
-            return await _repository.UpdateAsync(question);
-        }
+        // public async Task<QuestionEntity> Put(QuestionEntity question)
+        // {
+        //     return await _repository.UpdateAsync(question);
+        // }
+        // public async Task<bool> Delete(Guid id)
+        // {
+        //     return await _repository.DeleteAsync(id);
+        // }
     }
 }

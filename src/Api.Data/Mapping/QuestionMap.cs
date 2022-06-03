@@ -10,7 +10,7 @@ namespace Api.Data.Mapping
         {
             builder.ToTable("Question");
             builder.HasIndex(p => p.Question);
-            builder.HasKey(p => p.Id);
+            builder.HasKey(p => p.Id);          
         }
     }
 }

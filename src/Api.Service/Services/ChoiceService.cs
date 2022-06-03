@@ -14,12 +14,8 @@ namespace Api.Service.Services
         {
             _repository = repository;
         }
-        public async Task<bool> Delete(Guid id)
-        {
-            return await _repository.DeleteAsync(id);
-        }
 
-        public async Task<ChoiceEntity> Get(Guid id)
+        public async Task<ChoiceEntity> Get(int id)
         {
             return await _repository.SelectAsync(id);
         }
@@ -29,14 +25,18 @@ namespace Api.Service.Services
             return await _repository.SelectAsync();
         }
 
-        public async Task<ChoiceEntity> Post(ChoiceEntity choice)
-        {
-            return await _repository.InsertAsync(choice);
-        }
+        // public async Task<ChoiceEntity> Post(ChoiceEntity choice)
+        // {
+        //     return await _repository.InsertAsync(choice);
+        // }
 
-        public async Task<ChoiceEntity> Put(ChoiceEntity choice)
-        {
-            return await _repository.UpdateAsync(choice);
-        }
+        // public async Task<ChoiceEntity> Put(ChoiceEntity choice)
+        // {
+        //     return await _repository.UpdateAsync(choice);
+        // }
+        //         public async Task<bool> Delete(Guid id)
+        // {
+        //     return await _repository.DeleteAsync(id);
+        // }
     }
 }

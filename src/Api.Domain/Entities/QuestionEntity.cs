@@ -8,6 +8,6 @@ namespace Api.Domain.Entities
         [Required]
         [MaxLength(200)]
         public string Question { get; set; }
-        public virtual IEnumerable<ChoiceEntity> Choice { get; set; }
+        public virtual List<ChoiceEntity> Choice { get; set; }
     }
 }

@@ -19,9 +19,9 @@ namespace Data.Migrations
 
             modelBuilder.Entity("Api.Domain.Entities.ChoiceEntity", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("int");
 
                     b.Property<string>("Choice")
                         .IsRequired()
@@ -33,26 +33,133 @@ namespace Data.Migrations
                     b.Property<DateTime?>("DateUpdate")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<Guid>("QuestionId")
-                        .HasColumnType("char(36)");
+                    b.Property<int?>("QuestionEntityId")
+                        .HasColumnType("int");
 
-                    b.Property<Guid?>("QuestionsId")
-                        .HasColumnType("char(36)");
+                    b.Property<int>("QuestionId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("Choice");
 
-                    b.HasIndex("QuestionsId");
+                    b.HasIndex("QuestionEntityId");
 
                     b.ToTable("Choice");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Choice = "Choice 1",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 435, DateTimeKind.Local).AddTicks(9649),
+                            QuestionId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Choice = "Choice 2",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(262),
+                            QuestionId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Choice = "Choice 3",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(289),
+                            QuestionId = 3
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Choice = "Choice 4",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(293),
+                            QuestionId = 4
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Choice = "Choice 5",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(295),
+                            QuestionId = 5
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Choice = "Choice 6",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(298),
+                            QuestionId = 6
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Choice = "Choice 7",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(300),
+                            QuestionId = 7
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Choice = "Choice 8",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(303),
+                            QuestionId = 8
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Choice = "Choice 9",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(305),
+                            QuestionId = 9
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Choice = "Choice 10",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(308),
+                            QuestionId = 10
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Choice = "Choice 11",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(310),
+                            QuestionId = 11
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Choice = "Choice 12",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(313),
+                            QuestionId = 12
+                        },
+                        new
+                        {
+                            Id = 13,
+                            Choice = "Choice 13",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(315),
+                            QuestionId = 13
+                        },
+                        new
+                        {
+                            Id = 14,
+                            Choice = "Choice 14",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(318),
+                            QuestionId = 14
+                        },
+                        new
+                        {
+                            Id = 15,
+                            Choice = "Choice 15",
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 436, DateTimeKind.Local).AddTicks(320),
+                            QuestionId = 15
+                        });
                 });
 
             modelBuilder.Entity("Api.Domain.Entities.QuestionEntity", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("int");
 
                     b.Property<DateTime?>("DateCreate")
                         .HasColumnType("datetime(6)");
@@ -70,13 +177,105 @@ namespace Data.Migrations
                     b.HasIndex("Question");
 
                     b.ToTable("Question");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 431, DateTimeKind.Local).AddTicks(6402),
+                            Question = "Question 1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4070),
+                            Question = "Question 2"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4139),
+                            Question = "Question 3"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4143),
+                            Question = "Question 4"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4146),
+                            Question = "Question 5"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4149),
+                            Question = "Question 6"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4151),
+                            Question = "Question 7"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4154),
+                            Question = "Question 8"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4156),
+                            Question = "Question 9"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4159),
+                            Question = "Question 10"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4161),
+                            Question = "Question 11"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4164),
+                            Question = "Question 12"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4167),
+                            Question = "Question 13"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4170),
+                            Question = "Question 14"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            DateCreate = new DateTime(2022, 6, 3, 15, 47, 19, 433, DateTimeKind.Local).AddTicks(4172),
+                            Question = "Question 15"
+                        });
                 });
 
             modelBuilder.Entity("Api.Domain.Entities.ChoiceEntity", b =>
                 {
-                    b.HasOne("Api.Domain.Entities.QuestionEntity", "Questions")
+                    b.HasOne("Api.Domain.Entities.QuestionEntity", null)
                         .WithMany("Choice")
-                        .HasForeignKey("QuestionsId");
+                        .HasForeignKey("QuestionEntityId");
                 });
 #pragma warning restore 612, 618
         }
