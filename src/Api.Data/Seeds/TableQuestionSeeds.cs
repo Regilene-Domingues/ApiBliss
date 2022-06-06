@@ -206,6 +206,20 @@ namespace Api.Data.Seeds
                 Choice = "Choice 15",
                 DateCreate = DateTime.Now,
                 QuestionId = 15
+            },
+            new ChoiceEntity()
+            {
+                Id = 16,
+                Choice = "Choice 15.1",
+                DateCreate = DateTime.Now,
+                QuestionId = 15
+            },
+            new ChoiceEntity()
+            {
+                Id = 17,
+                Choice = "Choice 15.2",
+                DateCreate = DateTime.Now,
+                QuestionId = 15
             }
             );
         }
