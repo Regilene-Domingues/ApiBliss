@@ -1,5 +1,7 @@
 [BACKEND RECRUITMENT DELIVERY] v0.1
 
+This test is incomplete, the filter and share parts are missing.
+
 The API was developed in Backend.
 
 Language: C#
