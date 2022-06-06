@@ -78,3 +78,7 @@ D:\Bliss\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Ne
 D:\Bliss\src\Api.Application\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 D:\Bliss\src\Api.Application\obj\Debug\netcoreapp3.1\applications.csproj.AssemblyReference.cache
 D:\Bliss\src\Api.Application\obj\Debug\netcoreapp3.1\applications.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bliss\src\Api.Application\bin\Debug\netcoreapp3.1\Canducci.Pagination.dll
+D:\Bliss\src\Api.Application\bin\Debug\netcoreapp3.1\JetBrains.Annotations.dll
+D:\Bliss\src\Api.Application\bin\Debug\netcoreapp3.1\X.PagedList.dll
+D:\Bliss\src\Api.Application\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll

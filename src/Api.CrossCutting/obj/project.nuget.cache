@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vjfT7Aq//tk8Gz+q0STPa2CcIGtssObEEUSO3LlkYcA/RzYihNfto2bFWK8FfUab9M7XEWBD/VT9GEaEHzSEEA==",
+  "dgSpecHash": "pfFUbfbdAhV+IIbNiiXt3kpyf95i6XzclNIa58YqumRp5slQxg+CNQaR/XSX/Fxz5u0zD86mtAbJBKRR/0XHqQ==",
   "success": true,
   "projectFilePath": "D:\\Bliss\\src\\Api.CrossCutting\\CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuário\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\Usuário\\.nuget\\packages\\canducci.pagination\\2.1.2\\canducci.pagination.2.1.2.nupkg.sha512",
+    "C:\\Users\\Usuário\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -102,7 +104,9 @@
     "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Usuário\\.nuget\\packages\\x.pagedlist\\8.4.3\\x.pagedlist.8.4.3.nupkg.sha512",
+    "C:\\Users\\Usuário\\.nuget\\packages\\x.pagedlist.mvc.core\\8.4.3\\x.pagedlist.mvc.core.8.4.3.nupkg.sha512"
   ],
   "logs": []
 }

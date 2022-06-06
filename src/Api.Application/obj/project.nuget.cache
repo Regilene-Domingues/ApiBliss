@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9tssgvmScaS7Ac9pzt1sLeIrWZAImY4NZZCdLnaU06jOvMKo4drw5Ou4W8Ni9OJhgLS2waA7bmQ4NuNEfMCWdw==",
+  "dgSpecHash": "aY6eOZ9xnr96zxo38N+LdbNztLRNxxkNQxo71N1Rz412U3GVhJJzbRLfvW1p4lP8jsiH61czuB8wAQmbU4o1Ag==",
   "success": true,
   "projectFilePath": "D:\\Bliss\\src\\Api.Application\\applications.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuário\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\Usuário\\.nuget\\packages\\canducci.pagination\\2.1.2\\canducci.pagination.2.1.2.nupkg.sha512",
+    "C:\\Users\\Usuário\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.2\\microsoft.aspnetcore.jsonpatch.3.1.2.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.2\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.2.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -111,7 +113,9 @@
     "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Usuário\\.nuget\\packages\\x.pagedlist\\8.4.3\\x.pagedlist.8.4.3.nupkg.sha512",
+    "C:\\Users\\Usuário\\.nuget\\packages\\x.pagedlist.mvc.core\\8.4.3\\x.pagedlist.mvc.core.8.4.3.nupkg.sha512"
   ],
   "logs": []
 }

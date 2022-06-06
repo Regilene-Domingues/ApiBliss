@@ -8,7 +8,7 @@ namespace Api.Domain.Interfaces
     {
         Task<T> SelectAsync(int id);
         Task<IEnumerable<T>> SelectAsync();
-        Task<IEnumerable<QuestionEntity>> GetAllAsync();
+        Task<IEnumerable<QuestionEntity>> GetAllAsync(int? page);
         Task<QuestionEntity> GetByIdAsync(int id);
         // Task<T> InsertAsync(T item);
         // Task<T> UpdateAsync(T item);

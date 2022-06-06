@@ -16,7 +16,7 @@ namespace Api.Application.Controllers
             _service = service;
         }
         [HttpGet]
-        public async Task<ActionResult> GetAll()
+        public async Task<ActionResult> GetAll(int? page)
         {
             if (!ModelState.IsValid)
             {
@@ -24,7 +24,7 @@ namespace Api.Application.Controllers
             }
             try
             {
-                var Result = await _service.GetAll();
+                var Result = await _service.GetAll(page);
                 return Ok(Result);
             }
             catch (ArgumentException e)

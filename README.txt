@@ -1,6 +1,6 @@
 [BACKEND RECRUITMENT DELIVERY] v0.1
 
-This test is incomplete, the filter and share parts are missing.
+This test is incomplete, the share part is missing.
 
 The API was developed in Backend.
 
@@ -18,7 +18,7 @@ Healths
 Get/Healths - Only Execute
 
 Questions
-Get/Questions - Only Execute
+Get/Questions - enter the page number (1 or 2) and run
 Get/Questions/{id} - Required id (Get the id through Get/Questions;)
 
 

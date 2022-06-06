@@ -15,6 +15,8 @@
     <PrivateAssets>all</PrivateAssets>
     <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
   </PackageReference>
+  <PackageReference Include="Canducci.Pagination" Version="2.1.2" />
+  <PackageReference Include="X.PagedList.Mvc.Core" Version="8.4.3" />
 </ItemGroup>
 
 <ItemGroup>

@@ -2,6 +2,24 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Canducci.Pagination/2.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Canducci.Pagination.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Canducci.Pagination.dll": {}
+        }
+      },
+      "JetBrains.Annotations/2022.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -1420,6 +1438,33 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "X.PagedList/8.4.3": {
+        "type": "package",
+        "dependencies": {
+          "JetBrains.Annotations": "2022.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/X.PagedList.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/X.PagedList.dll": {}
+        }
+      },
+      "X.PagedList.Mvc.Core/8.4.3": {
+        "type": "package",
+        "dependencies": {
+          "X.PagedList": "8.4.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/X.PagedList.Mvc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/X.PagedList.Mvc.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1433,6 +1478,45 @@
     }
   },
   "libraries": {
+    "Canducci.Pagination/2.1.2": {
+      "sha512": "hmwobJtDyUUMYEGDXjo0asiMw/l/vmv1AJHJr4Xdn8M1sdDR2I0T4HnnluIHI4fifM+hCfSemMy80SpQ3ddP4g==",
+      "type": "package",
+      "path": "canducci.pagination/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "canducci.pagination.2.1.2.nupkg.sha512",
+        "canducci.pagination.nuspec",
+        "ico.png",
+        "lib/net451/Canducci.Pagination.dll",
+        "lib/net461/Canducci.Pagination.dll",
+        "lib/netstandard1.6/Canducci.Pagination.dll",
+        "lib/netstandard2.0/Canducci.Pagination.dll",
+        "lib/netstandard2.1/Canducci.Pagination.dll"
+      ]
+    },
+    "JetBrains.Annotations/2022.1.0": {
+      "sha512": "ASfpoFJxiRsC9Xc4TWuPM41Zb/gl64xwfMOhnOZ3RnVWGYIZchjpWQV5zshJgoc/ZxVtgjaF7b577lURj7E6ig==",
+      "type": "package",
+      "path": "jetbrains.annotations/2022.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "jetbrains.annotations.2022.1.0.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard2.0/JetBrains.Annotations.dll",
+        "lib/netstandard2.0/JetBrains.Annotations.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -5421,6 +5505,33 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "X.PagedList/8.4.3": {
+      "sha512": "wVVbgv++0NmOaUFgNOAky+wt4MdAAwn2Roz/+u+jlEX1s/ELIbbnan70Skhk/um6w5NnM5eC4Kux1GAPjzHOeQ==",
+      "type": "package",
+      "path": "x.pagedlist/8.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/X.PagedList.dll",
+        "lib/netstandard2.0/X.PagedList.dll",
+        "lib/netstandard2.1/X.PagedList.dll",
+        "x.pagedlist.8.4.3.nupkg.sha512",
+        "x.pagedlist.nuspec"
+      ]
+    },
+    "X.PagedList.Mvc.Core/8.4.3": {
+      "sha512": "f1M+6o0AGSUGBuIRiXl9PGfoFbymw8uKjcuA1pJb2XkfginndZg1UR9zgppXW0GMLWCMzCoD5uVGD3SSywSimQ==",
+      "type": "package",
+      "path": "x.pagedlist.mvc.core/8.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/X.PagedList.Mvc.Core.dll",
+        "lib/netcoreapp3.1/X.PagedList.Mvc.Core.dll",
+        "x.pagedlist.mvc.core.8.4.3.nupkg.sha512",
+        "x.pagedlist.mvc.core.nuspec"
+      ]
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Api.Domain/Domain.csproj",
@@ -5429,11 +5540,13 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Canducci.Pagination >= 2.1.2",
       "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.25",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.25",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.25",
-      "Pomelo.EntityFrameworkCore.MySql >= 3.1.2"
+      "Pomelo.EntityFrameworkCore.MySql >= 3.1.2",
+      "X.PagedList.Mvc.Core >= 8.4.3"
     ]
   },
   "packageFolders": {
@@ -5479,6 +5592,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Canducci.Pagination": {
+            "target": "Package",
+            "version": "[2.1.2, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers",
             "suppressParent": "All",
@@ -5498,6 +5615,10 @@
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[3.1.2, )"
+          },
+          "X.PagedList.Mvc.Core": {
+            "target": "Package",
+            "version": "[8.4.3, )"
           }
         },
         "imports": [

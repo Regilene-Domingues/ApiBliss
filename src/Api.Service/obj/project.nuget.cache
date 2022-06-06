@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mt2w7xTcKjoQlz6WDU9j9TTXL6QAktQdz3g+7CsPrmSPz+da8ep3cPeJE15Yh7Mj+Wj9exSSugiaZUvpqixkww==",
+  "dgSpecHash": "He8FmhyVjhkknUdbh6E+ltVlPoGn/G8a+yIgeUrRzZAekGgtP/noKzG4cmVnWmtAJK4aArb7sTwO16wDFab6IQ==",
   "success": true,
   "projectFilePath": "D:\\Bliss\\src\\Api.Service\\Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Usuário\\.nuget\\packages\\canducci.pagination\\2.1.2\\canducci.pagination.2.1.2.nupkg.sha512",
+    "C:\\Users\\Usuário\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -100,7 +102,9 @@
     "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Usuário\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Usuário\\.nuget\\packages\\x.pagedlist\\8.4.3\\x.pagedlist.8.4.3.nupkg.sha512",
+    "C:\\Users\\Usuário\\.nuget\\packages\\x.pagedlist.mvc.core\\8.4.3\\x.pagedlist.mvc.core.8.4.3.nupkg.sha512"
   ],
   "logs": []
 }

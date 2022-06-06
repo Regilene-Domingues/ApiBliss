@@ -20,9 +20,9 @@ namespace Api.Service.Services
             return await _repository.GetByIdAsync(id);
         }
 
-        public async Task<IEnumerable<QuestionEntity>> GetAll()
+        public async Task<IEnumerable<QuestionEntity>> GetAll(int? page)
         {
-            return await _repository.GetAllAsync();
+            return await _repository.GetAllAsync(page);
         }
 
         // public async Task<QuestionEntity> Post(QuestionEntity question)

@@ -6,6 +6,7 @@ using Api.Data.Context;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using X.PagedList;
 
 namespace Api.Data.Repository
 {
@@ -62,13 +63,12 @@ namespace Api.Data.Repository
             }
         }
 
-        public async Task<IEnumerable<QuestionEntity>> GetAllAsync()
+        public async Task<IEnumerable<QuestionEntity>> GetAllAsync(int? page)
         {
             try
             {
-
-                var result = await _context.Questions.ToArrayAsync();
-
+                var NumPage = page ?? 1;
+                var result = await _context.Questions.ToPagedListAsync(page.Value, 10);
 
                 foreach (var item in result)
                 {
